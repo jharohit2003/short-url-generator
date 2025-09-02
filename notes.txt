@@ -9,3 +9,6 @@ React :(ui library divide page into components)
    --> react-hook-form  (convert form into object)
    
    --> zod  (for validation )
+
+
+   some more important topic
