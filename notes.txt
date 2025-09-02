@@ -1,0 +1,11 @@
+React :(ui library divide page into components)
+   -> axios (for connection)
+   -> radix ui (for ui design)
+   -> zod (third party for verification)
+   ->shadcn  https://ui.shadcn.com/docs/components
+
+
+   Form 
+   --> react-hook-form  (convert form into object)
+   
+   --> zod  (for validation )
