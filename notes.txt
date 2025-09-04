@@ -8,7 +8,9 @@ React :(ui library divide page into components)
    Form 
    --> react-hook-form  (convert form into object)
    
-   --> zod  (for validation )
+   --> zod  (for validation schema )
+   --> axios (object send to backend Api)
+   --> custom hooks
 
 
    some more important topic

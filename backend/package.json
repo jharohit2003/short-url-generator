@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is the backend api",
+  "main": "server.js",
+  "type ":"module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "api"
+  ],
+  "author": "rohit jha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
