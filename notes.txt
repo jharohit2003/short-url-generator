@@ -14,3 +14,9 @@ React :(ui library divide page into components)
 
 
    some more important topic
+
+   -> dotenv :: for access env file
+
+
+   -> cors (cross origion request sharing)
+    frontend alag port pe and backend alag code pe

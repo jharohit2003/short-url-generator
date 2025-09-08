@@ -12,11 +12,11 @@
   "dependencies": {
     "@hookform/resolvers": "^5.2.1",
     "@radix-ui/themes": "^3.2.1",
+    "axios": "^1.11.0",
     "axois": "^0.0.1-security",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-hook-form": "^7.62.0",
-    "react-hooks-forms": "^0.8.1",
     "zod": "^4.1.5"
   },
   "devDependencies": {
