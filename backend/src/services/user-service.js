@@ -1,7 +1,11 @@
 import { userModel } from "../models/user-schema.js";
 
-const registerUser = aysc(userObject)={
-     
-   await userModel.create(userObject);
-    
+export const registerUser = async(userObject)=>{
+     try{ 
+  const doc = await userModel.create(userObject);
+  return doc;
+     }
+     catch(err){
+     throw err;
+     }
 }

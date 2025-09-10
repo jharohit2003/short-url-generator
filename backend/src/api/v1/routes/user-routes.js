@@ -1,4 +1,5 @@
 import express from "express";
+import { home, login, register } from "../../../controllers/user-control.js";
 export const userRoutes = express.Router();
 
 // userRoutes.get('/', (request, response)=>{
@@ -9,7 +10,6 @@ export const userRoutes = express.Router();
 //    response.send("<h1>Login </h1>");
 // })
 
-userRoutes.get('/');
-userRoutes.get('/login');
-userRoutes.get('/register');
-
+userRoutes.get('/',home);
+userRoutes.post('/login',login);
+userRoutes.post('/register',register);
